@@ -26,7 +26,64 @@ body {
 
 nav {
     grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(12, 1fr) 8fr;
+    align-items: center;
+    gap: 10px;
     background-color: var(--primary-clr);
+    color: var(--white);
+    padding: 25px;
+}
+
+.nav-icon, 
+.logo {
+    justify-self: center;
+}
+
+.nav-item {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 1.75rem;
+}
+
+.home {
+    grid-row: 3 / 4;
+}
+
+.profile {
+    grid-row: 4 / 5;
+}
+
+.messages {
+    grid-row: 5 / 6;
+}
+
+.history {
+    grid-row: 6 / 7;
+}
+
+.tasks {
+    grid-row: 7 / 8;
+}
+
+.communities {
+    grid-row: 8 / 9;
+}
+
+.settings {
+    grid-row: 10 / 11;
+}
+
+.support {
+    grid-row: 11 / 12;
+}
+
+.privacy {
+    grid-row: 12 / 13;
 }
 
 header {
