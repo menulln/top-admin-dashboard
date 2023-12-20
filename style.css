@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
     --primary-clr: #ff5841;
     --primary-clr-bright: #ff6e5b;
@@ -19,6 +21,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 1fr 5fr;
+    font-family: "Ubuntu";
 }
 
 nav {
